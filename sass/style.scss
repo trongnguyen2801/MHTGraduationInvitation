@@ -383,12 +383,14 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 .fh5co-cover {
-	height: 900px;
+	height: 9100px;
 	background-size: cover;
-	// background-position: center center;
-	background-repeat: no-repeat;
+	//background-position: center center;
+	background-position: -750px 0px;
+
 	position: relative;
 	width: 100%;
+
 	.overlay {
 		z-index:0;
 		position: absolute;
@@ -404,6 +406,8 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	@media screen and (max-width: $screen-sm) {
 		height: 600px;
+		background-position: -750px 0px;
+
 	}
 	.display-t,
 	.display-tc {
@@ -412,6 +416,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		width: 100%;
 		@media screen and (max-width: $screen-sm) {
 			height: 600px;
+			background-position: -750px 0px;
 		}
 	}	
 
@@ -419,6 +424,8 @@ h1, h2, h3, h4, h5, h6, figure {
 		height: 600px;
 		@media screen and (max-width: $screen-sm) {
 			height: 400px;
+			background-position: -750px 0px;
+
 		}
 		.display-t,
 		.display-tc {
@@ -427,6 +434,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			width: 100%;
 			@media screen and (max-width: $screen-sm) {
 				height: 400px;
+				background-position: -750px 0px;
 			}
 		}	
 	}
